@@ -1,0 +1,5 @@
+EXPECTATION:
+I expected the heavy weight to follow a large sin wave and the smaller weight to follow a similar wave combined with a smaller more frequent wave.
+
+RESULT:
+Both followed almost identical paths (minus the standard displacement). They obviously both act with each other and effect each other int he same way.

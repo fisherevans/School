@@ -1,0 +1,241 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:28px;
+	font-weight:300;
+}
+
+body
+{
+	background-color:#222222;
+}
+
+.link
+{
+	color:#0080ff;
+	text-decoration:none;
+	font-weight:300;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.link:hover, .link:focus
+{
+	color:#40aaff;
+	text-decoration:none;
+	border:0px;
+}
+
+#header
+{
+	width:400px;
+	height:100px;
+	background-image:url('../img/header.png');
+	margin:50px auto 30px auto;
+	background-color:#fefefe;
+	box-shadow: 0px 0px 30px #000510;
+}
+
+#window
+{
+	margin:0px auto 100px auto;
+	background-color:#fefefe;
+	width: 400px;
+	padding-bottom:25px;
+	box-shadow: 0px 0px 30px #000510;
+}
+
+.inputForm
+{
+	max-height:600px;
+	overflow:hidden;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.inputFormHidden
+{
+	max-height:0px;
+	overflow:hidden;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.inputRow
+{
+	padding:25px 25px 0px 25px;
+	text-align:center;
+	font-size:24px;
+	position:relative;
+}
+
+.inputRowTooltip
+{
+	background-color:#ffffff;
+	position:relative;
+	margin: -66px auto 45px auto;
+	top:15p1x;
+	height:19px;
+	width:260px;
+	font-size:16px;
+	line-height:18px;
+	border: 1px solid #808080;
+	z-index:1;
+	pointer-events: none;
+}
+
+.inputRowTooltipArrow
+{
+	background-image:url('../img/down_arrow.png');
+	position:absolute;
+	left:193px;
+	top:35px;
+	height:8px;
+	width:14px;
+
+	z-index:2;
+	pointer-events: none;
+}
+
+.opaque
+{
+	-moz-opacity: 1.00;
+	opacity: 1.00;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.inputText
+{
+	width:350px;
+	height:56px;
+	padding:10px;
+	font-size:28px;
+	color: #666666;
+	border:1px solid #aaa;
+	background-color:#ffffff;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.inputText:focus, .inputText:hover
+{
+	border:1px solid #0080ff;
+	background-color:#f2f9ff;
+	color: #000000;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.error
+{
+	border: 1px solid #cc0000;
+	background-color:#fff2f2;
+}
+
+.error:focus, .error:hover
+{
+	border:1px solid #ff0000;
+	background-color:#fff2f2;
+	color: #000000;
+}
+
+.correct
+{
+	border: 1px solid #00cc00;
+	background-color:#f2fff2;
+}
+
+.correct:focus, .correct:hover
+{
+	border:1px solid #00ff00;
+	color: #000000;
+}
+
+.red
+{
+	border: 1px solid #cc0000;
+	background-color:#fff2f2;
+}
+
+.red:focus, .red:hover
+{
+	border: 1px solid #cc0000;
+	background-color:#fff2f2;
+}
+
+.inputPassword
+{
+	letter-spacing:6px;
+}
+
+.button
+{
+	width:350px;
+	height:55px;
+	font-size:28px;
+    background: #0080ff;
+    padding: 8px 17px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+	cursor:pointer;
+    border:0px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.button.error
+{
+    background: #ff0000;
+}
+
+.button:focus, .button:hover
+{
+	border:1px solid #0060BF;
+    background: #40A0FF;
+    color: #ffffff;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.button.error:focus, .button.error:hover
+{
+    background: #ff4040;
+	border:1px solid #bf0000;
+}
+
+textarea:focus, input:focus, textarea:hover, input:hover
+{
+    outline: 0;
+}
+
+::-webkit-input-placeholder
+{
+    color: #aaa;
+	letter-spacing:0px;
+}

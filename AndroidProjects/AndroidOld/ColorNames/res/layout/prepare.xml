@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horzical" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horzical" >
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonRed"
+		    android:background="@drawable/red_button"
+		    android:text="@string/red"
+		    android:textColor="@string/whiteColorHEX"/>
+	</LinearLayout>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonOrange"
+		    android:background="@drawable/orange_button"
+		    android:text="@string/orange"
+		    android:textColor="@string/whiteColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonYellow"
+		    android:background="@drawable/yellow_button"
+		    android:text="@string/yellow"
+		    android:textColor="@string/blackColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonGreen"
+		    android:background="@drawable/green_button"
+		    android:text="@string/green"
+		    android:textColor="@string/whiteColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonBlue"
+		    android:background="@drawable/blue_button"
+		    android:text="@string/blue"
+		    android:textColor="@string/whiteColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonPurple"
+		    android:background="@drawable/purple_button"
+		    android:text="@string/purple"
+		    android:textColor="@string/whiteColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonWhite"
+		    android:background="@drawable/white_button"
+		    android:text="@string/white"
+		    android:textColor="@string/blackColorHEX"/>
+		<Button
+		    style="@style/default_horz_button_style"
+		    android:id="@+id/buttonBlack"
+		    android:background="@drawable/black_button"
+		    android:text="@string/black"
+		    android:textColor="@string/whiteColorHEX"/>
+		<Button
+		    style="@style/grey_horz_button_style"
+		    android:id="@+id/buttonTakeTest"
+		    android:background="@drawable/grey_button"
+		    android:text="@string/take_test"
+		    android:layout_marginTop="10dp"
+		    android:textColor="@string/blackColorHEX"/>
+
+</LinearLayout>

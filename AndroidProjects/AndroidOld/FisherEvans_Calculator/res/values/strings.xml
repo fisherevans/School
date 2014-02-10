@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CalculatorActivity!</string>
+    <string name="app_name">FisherEvans_Calculator</string>
+    <string name="clearButtonText">Try again</string>
+
+</resources>

@@ -1,0 +1,136 @@
+DUE Wednesday 3/14/2012  before 5PM ... all programs must be copied to Q:/CIS/CIS2280/HW_HAND_IN_MAR14
+
+Note Well : I will grab the files from this directory at 5PM on Wednesday 3/14/2012.
+            Anyone who has not handed in a program by that time will receive a 50 for a grade ... no excuses.
+		
+Program must be named using this convention: last_name.pl
+e.g. atkins.pl
+     baldwin.pl  etc.
+
+	 
+GRADING CRITERIA:
+Program runs and performs all tasks on test case of my choosing: 90 - 100
+Program runs but has minor bugs / logic errors                   80 - 90
+Program runs but only performs some of the required tasks        70 - 80
+Program runs but has significant errors                          60 - 70
+Program doesn't run (syntax errors)                              50
+
+I expect good documentation which WILL be part of my grading criteria.
+Documentation should include:
+program name
+How to call the program (invocation)
+What the program is supposed to do:
+Define all inputs 
+Define all outputs 
+Documentation should describe array usage
+e.g. %HASH=(); # hash array to remember all dirs  key=dir_name  value=unused  
+Documentation should describe all subroutine usage (with description of arguments)
+			
+
+
+ASSIGNMENT:
+	 
+Write a program to make 4 lists concerning all non-zero size files from a parent directory
+   and in all of its sub-directories. Note: Each list should be sorted (largest sizes listed first.)
+1) The 1st list should be of the form:
+    size(Bytes) ATTR1  ATTR2  ATTR3  fully_expanded_file_name
+    where ATTR1 is either a space character or the letter T if the file is an ASCII file  
+          ATTR2 is either a space character or the letter B if the file is a Binary file
+          ATTR3 is either a space character or the letter P if the file is a Perl file 
+                (note: assume all Perl files have .pl or .perl at the end of their names) 
+1A) After the 1st list is printed: the routine should also print
+    the total file count, the total amount of storage (in Bytes) , and the average storage amount 
+ 
+2) The 2nd list should only list ASCII files and should be of the form:
+    size(Bytes) fully_expanded_file_name
+2A) After the 2nd list is printed: the routine should also print 
+
+    the total file count, the total amount of storage (in Bytes) , and the average storage amount 
+
+3) The 3rd list should only list Binary files and should be of the form:
+    size(Bytes) fully_expanded_file_name
+3A) After the 3rd list is printed: the routine should also print 
+
+    the total file count, the total amount of storage (in Bytes) , and the average storage amount 
+
+4) The 4th list should only list Perl files and should be of the form:
+    size(Bytes) fully_expanded_file_name
+4A) After the 4th list is printed: the routine should also print 
+
+    the total file count, the total amount of storage (in Bytes) , and the average storage amount 
+
+  
+	   
+5) To calculate the above averages ... you must use a subroutine with at least one argument:
+    where that argument is an array (containing a list of file names and whatever other information you want
+    to send/return to/from the subroutine)
+    	
+
+###############################################################################################################
+
+For info on Subroutines see  Exercise 16 (and my class notes) ... 
+	#  HERE ARE MY RULES OF THUMB FOR PASSING ARGUMENTS TO AND FROM SUBROUTINES
+#
+# 0) Make all variables referenced in the subroutine local (even if they are args)
+# 1) pass all variabless using pointers (*vars) EXCEPT the following:
+#    Any variable that the subroutine changes that you DON'T want changed in the calling program:
+#    pass these as $vars, @vars or %vars (and their values will be copied to the subroutine)
+# 1A) If the subroutine is "outputting" 1 value (could ba an array), then you can use the return
+#     instruction to return the value and avoid passing the argument
+#
+
+Here is a copy of exercise 12 which lists information on how to deal with files and directories.
+12) Dealing with directories and file information:
+
+   There are several useful unary operators to determine the attributes of files and directories. 
+   Here are a few (... these work on a filename or filehandle):
+
+   Assume $f has been assigned previously to a value that can be interpretted to be a file (or dir):
+
+   if (-e $f) { # this tests to see if $f exists ... returns true if it does }
+   if (-z $f) { # this tests to see if $f has 0 size ... returns true if it does }
+   if (-s $f) { # this tests to see if $f has non-0 size ... returns the size if it does }
+   if (-f $f) { # this tests to see if $f is a plain file (i.e. not a directory) ... returns true if it is }
+   if (-d $f) { # this tests to see if $f is a directory ... returns true if it is }
+   if (-l $f) { # this tests to see if $f is a symbolic link ... returns true if it is }
+   if (-T $f) { # this tests to see if $f is a Text (ASCII) file ... returns true if it is }
+   if (-B $f) { # this tests to see if $f is a non-text (Binary) file ... returns true if it is }
+
+   
+ If a "file" is determined to be a directory, then a few special commmands are needed to read the directory.
+
+ Just like a file has to be opened (and associated with a filehandle), directories have to be opened 
+ and associated with a dirhandle:
+   
+ opendir DIRHANDLE , DIRNAME;  # for example: 
+ opendir CURRENT_DIR , "./";      # where ./ is a symbolic pointer to the current dir
+
+
+ Also, just like ASCII files, you can read the file names within a directory all at once, or one at a time:
+
+ all at once:
+ @A = readdir DIRHANDLE; # because the variable is an array, all entries in DIRHANDLE will be read into @A
+
+ one at a time:
+ $a = readdir DIRHANDLE; # beacuse $a is a scalar var, only the next entry in DIRHANDLE will be read
+                         # this would normally be done in some kind of loop: 
+						 # e.g while ($_ = readdir DIRHANDLE) { ... }
+
+ There are other commands to position the implied pointer within the directory, should you need them
+             (I never have):
+    rewinddir DIRHANDLE; # positions the directory pointer back to the beginning
+    seekdir DIRHANDLE, Position; # positions the dir pointer to the value designated by Position
+
+   And again, like Files, you should close the directory when you are done with it.
+
+   closedir DIRHANDLE;
+
+ 
+    
+
+#####################################################################################################
+   
+
+    
+
+    

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	    <AutoCompleteTextView
+	        android:id="@+id/input" 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:completionThreshold="1"
+	        android:text="" >
+	
+	        <requestFocus />
+	    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearScreen"
+        android:text="Clear" />
+
+    <TableLayout
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TableLayout>
+
+</LinearLayout>

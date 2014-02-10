@@ -1,0 +1,60 @@
+.animated1{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:0.5s;-moz-animation-duration:0.5s;-ms-animation-duration:0.5s;-o-animation-duration:0.5s;animation-duration:0.5s;}.animated1.hinge{-webkit-animation-duration:0.5s;-moz-animation-duration:0.5s;-ms-animation-duration:0.5s;-o-animation-duration:0.5s;animation-duration:0.5s;}@-webkit-keyframes shake1 {
+	0%, 100% {-webkit-transform: translateX(0);}	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}
+}
+
+@-moz-keyframes shake1 {
+	0%, 100% {-moz-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-moz-transform: translateX(3px);}
+}
+
+@-o-keyframes shake1 {
+	0%, 100% {-o-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-o-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-o-transform: translateX(3px);}
+}
+
+@keyframes shake1 {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {transform: translateX(3px);}
+}
+
+.shake1 {
+	-webkit-animation-name: shake1;
+	-moz-animation-name: shake1;
+	-o-animation-name: shake1;
+	animation-name: shake1;
+}
+
+.animated2{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:0.5s;-moz-animation-duration:0.5s;-ms-animation-duration:0.5s;-o-animation-duration:0.5s;animation-duration:0.5s;}.animated2.hinge{-webkit-animation-duration:0.5s;-moz-animation-duration:0.5s;-ms-animation-duration:0.5s;-o-animation-duration:0.5s;animation-duration:0.5s;}@-webkit-keyframes shake2 {
+	0%, 100% {-webkit-transform: translateX(0);}	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(3px);}
+}
+
+@-moz-keyframes shake2 {
+	0%, 100% {-moz-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-moz-transform: translateX(3px);}
+}
+
+@-o-keyframes shake2 {
+	0%, 100% {-o-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-o-transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {-o-transform: translateX(3px);}
+}
+
+@keyframes shake2 {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-3px);}
+	20%, 40%, 60%, 80% {transform: translateX(3px);}
+}
+
+.shake2 {
+	-webkit-animation-name: shake2;
+	-moz-animation-name: shake2;
+	-o-animation-name: shake2;
+	animation-name: shake2;
+}
+

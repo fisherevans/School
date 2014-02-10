@@ -11,7 +11,7 @@ left join l_lunches l using(employee_id)
 where l.lunch_date is null;
 
 -- A2
-select s.supplier_id, s.supplier_name, count(f.supplier_id)
+select s.supplier_id, s.supplier_name, count(f.supplier_id) as food_count
 from l_foods f
 right outer join l_suppliers s using(supplier_id)
 group by s.supplier_id, s.supplier_name;

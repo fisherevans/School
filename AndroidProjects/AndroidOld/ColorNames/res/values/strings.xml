@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ColorNamesActivity!</string>
+    <string name="app_name">ColorNames</string>
+    <string name="clearButtonTextTry">Try Again!</string>
+    <string name="take_test">I\'m ready, let\'s take the test!</string>
+    <string name="clearTextButton">Clear</string>
+    <string name="need_help">I need help. Tell me.</string>
+    <string name="request_answer">Type the color name,\nthen click submit.</string>
+    <string name="submit">Submit!</string>
+    <string name="empty"></string>
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="orange">ORANGE</string>
+    <string name="purple">PURPLE</string>
+    <string name="black">BLACK</string>
+    <string name="white">WHITE</string>
+    <string name="whiteColorHEX">#ffffff</string>
+    <string name="blackColorHEX">#000000</string>
+
+</resources>

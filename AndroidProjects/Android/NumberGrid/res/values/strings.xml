@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NumberGridActivity!</string>
+    <string name="app_name">NumberGrid</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="base">Base</string>
+    <string name="square">Squared</string>
+    <string name="cube">Cubed</string>
+    <string name="root">Square Root</string>
+    <string name="fact">Factorial</string>
+    <string name="onoff">On / Off</string>
+    <string name="prefRange">NUMBER RANGE</string>
+    <string name="prefCol">VIEWABLE COLUMNS</string>
+    <string name="prefSave">Save</string>
+    
+    <string name="dummy">Dummy Text</string>
+    <string name="back">Go Back</string>
+    
+    <string name="aboutButtonText">About</string>
+    <string name="prefButtonText">Preferences</string>
+    
+    <string name="aboutTitle">About Fisher Evans</string>
+    <string name="aboutPara1">Fisher Evans is currently enrolled at Vermont Technical College for Software Engineering. He has been intrigued by anything involving technology from a young age. He first started learning about computers and how they work at age 11 when he built his first computer.</string>
+    <string name="aboutPara2">By the age of 15, he began to teach himself Web-design (HTML, CSS, JavaScript). Throughout his high school career, he taught himself the basics of PHP, MySQL, Java, Python and Logic Programming.</string>
+    <string name="aboutPara3">Thanks to the motivation his Computer Systems teacher (Angela Pandis) supplied during high school, Fisher excelled in areas of computer hardware and inter-networking. Fisher won three state-wide championships for: computer maintenance (SkillsUSA), inter-networking (SkillsUSA) and web-design (TSA). He continued nationally ranking 38th in computer maintenance and 13th in inter-networking. During his national computer maintenance competition, Fisher also became CompTIA certified.</string>
+    <string name="aboutPara4">In college, Fisher is excelling in all of his classes. He goes above and beyond the requirements of his classes by applying the lessons learned to personal hobbies and professional development. During his free time, Fisher runs a popular java-based multiplayer game server called SudoCraft. This server allows him to be able to constantly apply what he has learned of programming by modifying the game to make it a more enjoyable playing environment, practice management skills concerning hundreds of clients, and keep in touch with new web development technologies with the server\'s ever-changing website.</string>
+    <string name="aboutPara5">Fisher\'s skill set and work record shows that he is a dedicated young worker who is eager to learn and achieve.</string>
+
+</resources>

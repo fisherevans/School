@@ -1,0 +1,18 @@
+# Global Vars
+    from:   0
+    to:     20
+    step:   1
+
+# Equations
+# http://www.javascripter.net/faq/mathfunc.htm
+    x:init: 0
+    x:eqn:  %dx%
+
+    y:init: 20
+    y:eqn:  %dy%
+
+    dx:init: 3
+    dx:eqn:  0
+
+    dy:init: 0
+    dy:eqn:  -9.83

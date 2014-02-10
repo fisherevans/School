@@ -1,0 +1,5 @@
+   make        model    year  odometer    est_value
+**********  **********  ****  ********   ***********
+    toyota     corolla  2009     52785         12000  
+     honda       civic  2011     24705         17000  
+    subaru     outback  2010     38039         15000

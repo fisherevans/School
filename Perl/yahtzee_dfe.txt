@@ -1,0 +1,5 @@
+new game :                    X X X X X 
+roll_dice RRRRR :             1 4 3 3 2 
+roll_dice RRRKR :             3 3 2  4 
+roll_dice KKRKR :               4  2 
+score_into             threes X X X X X 

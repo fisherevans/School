@@ -1,0 +1,33 @@
+Homework #2
+Fisher Evans
+
+1)
+	/**
+	 *  Comment (There doesn not have to be the * before the innder lines.)
+	*/
+
+2)
+	a
+	a
+
+3) 
+	Java can run on many probems with minimal effor. "Compile once, run anywhere."
+
+4)
+	Due to minute math inaccuracy, doubles may not be equal, even if they should be. Integers always round to the lowest integer, so it's muh easier to math variables.
+
+5)
+	a: double
+	b: int
+	c: long
+	d: char
+	e: double
+
+6)
+	Integer values can only be so large. The same goes for long values, but long values can be much much larger in comparison. Integers cannot be assigned a value as high as the human population on earth.
+
+7)
+	a: new line
+	b: backslash (\)
+	c: double quotation mark (")
+	d: tab indent (	)

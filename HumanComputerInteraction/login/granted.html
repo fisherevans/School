@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Super Secret Admin Screen</title>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#granted').delay(200).queue(function (next) { $(this).append('>> New Event = ENCRYPTED LOGIN {started}<br>'); next(); });
+			$('#granted').delay(400).queue(function (next) { $(this).append('>> SYSTEM_LOGIN: SuperAdmin<br>'); next(); });
+			$('#granted').delay(100).queue(function (next) { $(this).append('>> with PASSWORD: G0D-1234<br>'); next(); });
+			$('#granted').delay(1000).queue(function (next) { $(this).append('>> AUTHENTICATING...<br>'); next(); });
+			$('#granted').delay(4000).queue(function (next) { $(this).append('>> SECURITY_MAINFRAME -> <b>ACCESS_GRANTED!<b><br>'); next(); });
+			$('#granted').delay(500).queue(function (next) { $(this).append('&nbsp;> <span class="blink">_</span>'); next(); });
+			setInterval("$('.blink').toggle();",400);
+		});
+		</script>
+</head>
+<body style="background-color:#001000;">
+<div id="granted" style="font-family:Consolas, Monaco, monospace;color:#00bb00;font-size:20px;"></div>
+<div>
+&nbsp;> <span class="blink">_</span><br>
+</div>
+</body>
+</html>

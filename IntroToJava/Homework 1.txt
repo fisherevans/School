@@ -1,0 +1,50 @@
+Homework 1
+Fisher Evans
+
+R1.1
+	Using a program means the user is inputing information that modifies how a program works to use it's benifits. Programming a compuer means you are writting the code that would be carried out based on user input.
+
+R1.6
+	39 + 3
+	42
+
+R1.7
+	HelloWorld
+
+R1.8
+	"Cannot find symbol."
+
+R1.10
+	Syntax errors can be caught using an IDE while you compile a java class file. Logic errors are found when you run the program its self, after its clear of syntax errors.
+
+R1.14
+	import java.util.Scanner;
+
+	public class R1_14
+	{
+		public static void main(String[] args)
+		{
+			Scanner in = new Scanner(System.in);
+			System.out.print("Distance (In miles): ");
+			double distance = in.nextDouble();
+			System.out.print("Fuel Efficiancy (Mpg): ");
+			double fuelEff = in.nextDouble();
+			System.out.print("Train Ticket (In dollars): ");
+			double ticket = in.nextDouble();
+			
+			double carMait = 0.05*distance;
+			double carMPG = (distance*4/fuelEff);
+			double carPrice = carMait + carMPG;
+			
+			System.out.println("It costs $" + carPrice + " if you use your car.");
+			System.out.println("It costs $" + ticket + " if you use the train.");
+			if(carP <= ticket)
+			{
+				System.out.println("The car is a better option.");
+			}
+			else
+			{
+				System.out.println("The train is a better option."); 
+			}
+		}
+	}

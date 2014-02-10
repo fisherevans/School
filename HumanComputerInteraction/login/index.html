@@ -1,0 +1,120 @@
+<!--
+	INFO:
+		By      - David Fisher Evans
+		Date    - December, 2013
+		Purpose - Craig Damon's HCI Final
+	
+	SOURCES:	
+		Loading Image - http://preloaders.net/
+		JQuery        - http://jquery.com/
+		Animation     - https://daneden.me/animate/
+		Fake Logo     - http://fauxgo.com/post/12840592591/look-at-all-these-fun-toys-helghast
+		Custom Font   - http://www.google.com/fonts
+	
+	TOOLS USED:
+		PhotoShop CS6   - http://www.adobe.com/products/photoshop.html
+		Notepad++       - http://notepad-plus-plus.org/
+		Chrome Debugger - https://www.google.com/intl/en/chrome/browser/
+-->
+<html>
+<head>
+	<title>Axiom Login</title>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jqscript.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body onLoad='document.getElementsByName("loginUsername")[0].focus();'>
+	<div class="window" id="header">
+	
+	</div>
+	<div id="window">
+		<div id="login" name="login" class="inputForm">
+			<form method="post" onSubmit="return checkLogin();">
+				<div class="inputRow">
+					System Login
+				</div>
+				<div class="inputRow">
+					<input class="inputText" type="text" name="loginUsername" autocomplete="off" placeholder="Username">
+						<div class="inputRowTooltip">Username: 6-14 letters and numbers</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="inputText inputPassword" type="password" id="loginPassword" name="loginPassword" autocomplete="off" placeholder="Password">
+						<div class="inputRowTooltip">Password: At least 8 characters</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="button hideHover" id="loginButton" type="submit" value="Login">
+						<div class="inputRowTooltip">Invalid Credentials</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<span class="link" onClick="goToRegister();">Register</a>
+				</div>
+			</form>
+		</div>
+		<div id="register" name="register" class="inputFormHidden">
+			<form method="post" onSubmit="return checkRegister();">
+				<div class="inputRow">
+					System Registration
+				</div>
+				<div class="inputRow">
+					<input class="inputText" type="text" name="registerUsername" autocomplete="off" placeholder="Username">
+						<div class="inputRowTooltip">Username: 6-14 letters and numbers</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="inputText inputPassword" type="password" name="registerPassword" autocomplete="off" placeholder="Password">
+						<div class="inputRowTooltip">Password: At least 8 characters</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="inputText inputPassword" type="password" name="registerConfirmPassword" autocomplete="off" placeholder="Confirm Password">
+						<div class="inputRowTooltip">Confirm: Passwords must match</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="inputText" type="text" name="registerEmail" autocomplete="off" placeholder="example@domain.com">
+						<div class="inputRowTooltip">Email: Valid email format</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="inputText" type="text" name="registerPhone" autocomplete="off" placeholder="(123) 555-3456">
+						<div class="inputRowTooltip">Phone Number: 10 digits</div>
+						<div class="inputRowTooltipArrow"></div>
+					</input>
+				</div>
+				<div class="inputRow">
+					<input class="button" type="submit" value="Register"/>
+				</div>
+				<div class="inputRow">
+					<span class="link" onClick="goToLogin();">Login</a>
+				</div>
+			</form>
+		</div>
+		<div id="loading" name="login" class="inputFormHidden">
+			<div class="inputRow">
+				Loading...
+			</div>
+			<div class="inputRow">
+				<img src="img/loading.gif"/>
+			</div>
+			<div class="inputRow">
+				<span class="link" onClick="restart();">Cancel</a>
+			</div>
+		</div>
+	</div>
+	<input type="text" id="dummy" style="visibility:hidden;height:0px;width:0px;" />
+</body>
+</html>

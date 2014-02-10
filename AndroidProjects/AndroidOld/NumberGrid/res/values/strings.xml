@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NumberGridActivity!</string>
+    <string name="app_name">NumberGrid</string>
+    <string name="squared">Squared</string>
+    <string name="cubed">Cubed</string>
+    <string name="to">To</string>
+    <string name="numberRange">Number Range</string>
+    <string name="about">About</string>
+    <string name="pref">Preferences</string>
+    <string name="from">From</string>
+    <string name="base">Base</string>
+    <string name="sq">Squared</string>
+    <string name="cube">Cubed</string>
+    <string name="sqrt">Square Root</string>
+    <string name="fact">Factorial</string>
+    <string name="save">Save</string>
+
+</resources>

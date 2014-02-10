@@ -1,0 +1,91 @@
+Turn 1:
+	Rolled -> 1 2 3 4 3
+		Thought -> KKKKR small_straight
+	Rolled -> 1 2 3 4 6
+		Thought -> RKKKK small_straight
+	Rolled -> 1 2 3 4 6
+	Scored 30 for small_straight
+Turn 2:
+	Rolled -> 4 1 4 2 2
+		Thought -> KRKKK full_house
+	Rolled -> 4 5 4 2 2
+		Thought -> KRKKK full_house
+	Rolled -> 4 1 4 2 2
+	Scored 8 for fours
+Turn 3:
+	Rolled -> 4 2 1 2 4
+		Thought -> KKRKK full_house
+	Rolled -> 4 2 3 2 4
+		Thought -> KKRKK full_house
+	Rolled -> 4 2 3 2 4
+	Scored 15 for chance
+Turn 4:
+	Rolled -> 6 1 5 4 3
+		Thought -> KRKKK large_straight
+	Rolled -> 6 2 5 4 3
+		Thought -> KKKKK large_straight
+	Rolled -> 6 2 5 4 3
+	Scored 40 for large_straight
+Turn 5:
+	Rolled -> 6 3 4 1 2
+		Thought -> KRRRR sixes
+	Rolled -> 6 3 4 1 4
+		Thought -> RRKRK 4
+	Rolled -> 6 3 4 3 4
+	Scored 6 for sixes
+Turn 6:
+	Rolled -> 6 1 5 2 1
+		Thought -> RKRRK ones
+	Rolled -> 4 1 6 2 1
+		Thought -> RKRRK ones
+	Rolled -> 2 1 6 2 1
+	Scored 4 for twos
+Turn 7:
+	Rolled -> 2 4 2 5 2
+		Thought -> RRRRR full_house
+	Rolled -> 3 4 4 3 2
+		Thought -> KKKKR full_house
+	Rolled -> 3 4 4 3 5
+	Scored 6 for threes
+Turn 8:
+	Rolled -> 4 6 2 5 6
+		Thought -> RKRRK 6
+	Rolled -> 2 6 3 2 6
+		Thought -> KKRKK full_house
+	Rolled -> 2 6 6 2 6
+	Scored 25 for full_house
+Turn 9:
+	Rolled -> 1 6 4 5 4
+		Thought -> RRKRK 4
+	Rolled -> 5 2 4 3 4
+		Thought -> RRKRK 4
+	Rolled -> 5 4 4 3 4
+	Scored 20 for 3_of_a_kind
+Turn 10:
+	Rolled -> 2 2 6 1 5
+		Thought -> KKRRR 2
+	Rolled -> 2 2 2 5 3
+		Thought -> KKKRR 2
+	Rolled -> 2 2 2 3 3
+	Scored 0 for 4_of_a_kind
+Turn 11:
+	Rolled -> 3 5 4 1 6
+		Thought -> RKRRR fives
+	Rolled -> 5 5 4 1 4
+		Thought -> KKRRR fives
+	Rolled -> 5 5 1 3 6
+	Scored 10 for fives
+Turn 12:
+	Rolled -> 4 5 2 3 1
+		Thought -> KRRRR 4
+	Rolled -> 4 6 3 5 5
+		Thought -> RRRKK 5
+	Rolled -> 2 2 3 5 5
+	Scored 0 for ones
+Turn 13:
+	Rolled -> 1 4 4 2 3
+		Thought -> RKKRR 4
+	Rolled -> 3 4 4 4 5
+		Thought -> RKKKR 4
+	Rolled -> 3 4 4 4 5
+	Scored 0 for yahtzee

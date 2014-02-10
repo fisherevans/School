@@ -1,0 +1,98 @@
+Turn 1
+   Roll 1: 3 4 1 6 5
+      Thinking 1: KKRKK - going for small_straight
+   Roll 2: 3 4 2 6 5
+      Thinking 2: KKKKK - going for large_straight
+   Roll 3: 3 4 2 6 5
+      Scoring into: large_straight for 40
+Turn 2
+   Roll 1: 6 3 3 2 5
+      Thinking 1: RKKRR - going for threes
+   Roll 2: 5 3 3 2 2
+      Thinking 2: RKKKK - going for full_house
+   Roll 3: 3 3 3 2 2
+      Scoring into: full_house for 25
+Turn 3
+   Roll 1: 1 6 6 1 2
+      Thinking 1: RKKRR - going for sixes
+   Roll 2: 5 6 6 6 5
+      Thinking 2: RKKKR - going for sixes
+   Roll 3: 5 6 6 6 4
+      Scoring into: sixes for 18
+         Added 18 to the Sub Score. (18)
+Turn 4
+   Roll 1: 1 2 4 4 4
+      Thinking 1: RRKKK - going for fours
+   Roll 2: 4 4 4 4 4
+      Thinking 2: KKKKK - going for fours
+   Roll 3: 4 4 4 4 4
+      Scoring into: yahtzee for 50
+Turn 5
+   Roll 1: 3 1 6 6 3
+      Thinking 1: KRRRK - going for threes
+   Roll 2: 3 1 6 6 3
+      Thinking 2: KRRRK - going for threes
+   Roll 3: 3 6 4 5 3
+      Scoring into: small_straight for 30
+Turn 6
+   Roll 1: 5 3 1 3 3
+      Thinking 1: RKRKK - going for threes
+   Roll 2: 6 3 3 3 3
+      Thinking 2: RKKKK - going for threes
+   Roll 3: 2 3 3 3 3
+      Scoring into: threes for 12
+         Added 12 to the Sub Score. (30)
+Turn 7
+   Roll 1: 3 6 5 2 6
+      Thinking 1: RKKRK - going for chance
+   Roll 2: 3 6 5 1 6
+      Thinking 2: RKKRK - going for chance
+   Roll 3: 1 6 5 6 6
+      Scoring into: 3_of_a_kind for 24
+Turn 8
+   Roll 1: 2 6 2 5 4
+      Thinking 1: KRKRR - going for twos
+   Roll 2: 2 5 2 6 6
+      Thinking 2: RKRKK - going for chance
+   Roll 3: 3 5 5 6 6
+      Scoring into: chance for 25
+Turn 9
+   Roll 1: 1 5 2 2 3
+      Thinking 1: RRKKR - going for twos
+   Roll 2: 4 5 2 2 1
+      Thinking 2: RRKKR - going for twos
+   Roll 3: 6 2 2 2 5
+      Scoring into: fives for 5
+         Added 5 to the Sub Score. (35)
+Turn 10
+   Roll 1: 3 5 6 2 1
+      Thinking 1: RRRKR - going for twos
+   Roll 2: 4 3 6 2 5
+      Thinking 2: KRRRR - going for fours
+   Roll 3: 4 6 6 4 2
+      Scoring into: fours for 8
+         Added 8 to the Sub Score. (43)
+Turn 11
+   Roll 1: 5 5 4 1 6
+      Thinking 1: RRRKR - going for ones
+   Roll 2: 4 5 4 1 6
+      Thinking 2: RRRKR - going for ones
+   Roll 3: 6 1 3 1 1
+      Scoring into: ones for 3
+         Added 3 to the Sub Score. (46)
+Turn 12
+   Roll 1: 2 2 1 3 6
+      Thinking 1: KKRRR - going for twos
+   Roll 2: 2 2 6 6 5
+      Thinking 2: KKRRR - going for twos
+   Roll 3: 2 2 4 2 3
+      Scoring into: twos for 6
+         Added 6 to the Sub Score. (52)
+Turn 13
+   Roll 1: 4 5 1 6 1
+      Thinking 1:  - going for 
+   Roll 2: 3 5 1 3 5
+      Thinking 2:  - going for 
+   Roll 3: 1 2 2 4 3
+      Scoring into: 4_of_a_kind for 0
+Final Score: 246
