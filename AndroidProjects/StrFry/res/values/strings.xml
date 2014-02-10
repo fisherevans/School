@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StrFry</string>
+    
+    <string name="freetitle1">Thanks</string>
+    <string name="freetext1">          Thanks for trying out my game. I hope you enjoy it. You can leave this splash screen in 15 seconds.</string>
+    <string name="freetitle2">Waiting...</string>
+    <string name="freetext2">          Think of this splash screen as a simple nuisance to remind you of the time, effort and care I put into creating this application. If you buy the full version of this game, you can skip this splash screen, PLUS I get the motivation to update this application, and even make new ones.</string>
+    <string name="freetitle3">Paid Version</string>
+    <string name="freetext3">          If you\'re interested in purchasing the paid version of this add to support my efforts, you can click below. Thank you again. -Fisher Evans</string>
+    
+    
+    <string name="googleButtonText">Google</string>
+    <string name="checkButtonText">Check</string>
+    <string name="solveButtonText">Solve It</string>
+    <string name="nextButtonText">Next</string>
+    <string name="skipButtonText">Skip</string>
+    
+    <string name="menuPref">Preferences</string>
+    <string name="menuHigh">High Scores</string>
+    <string name="menuHelp">Help</string>
+    <string name="menuAbout">About</string>
+    
+    <string name="prefDiff">Chose a Difficulty</string>
+    <string name="prefEasy">Easy</string>
+    <string name="prefEasyMedium">Easy/Medium</string>
+    <string name="prefMedium">Medium</string>
+    <string name="prefMediumHard">Medium/Hard</string>
+    <string name="prefHard">Hard</string>
+    <string name="prefTime">Show the Time Counter?</string>
+    <string name="prefGoogle">Show the Google Search Button?</string>
+    <string name="prefSound">Play Sounds?</string>
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Go Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="cont">Continue to Free Version</string>
+    
+    <string name="helpPointTitle">What\'s the Point?</string>
+    <string name="helpPointText">          You are given a set of letters and you have to "unscramble" the letters to make a real English word.</string>
+    <string name="helpTipsTitle">Any Tips?</string>
+    <string name="helpTipsText">          Click "Check" to see if your answer is correct. If your guess was wrong, 5 seconds will be added to your total solve time and tiles that are in the correct position will turn green.</string>
+    <string name="helpWordTitle">Is That Even a Word?</string>
+    <string name="helpWordText">          Every word in this game is from an English dictionary. Click the "Google" button to look up the definition of the word.</string>
+    <string name="helpPauseTitle">Can I pause the Game?</string>
+    <string name="helpPauseText">          Clicking the timer will pause the game, and make the letter invisible. Pressing it again will resume the game.</string>
+    <string name="helpButtonTitle">Where are the Google and Timer Buttons?</string>
+    <string name="helpButtonText">          You can turn the Google and Timer buttons on and off in the Preferences page.</string>
+    
+    <string name="aboutAppTitle">About the App</string>
+    <string name="aboutAppText">          This App was originally a project Fisher was assigned to do while studying at the Vermont Technical College. Fisher put enough time into the game mechanics that he felt it was "App-Store Worthy."</string>
+    <string name="aboutFisherTitle">About the Author (Fisher Evans)</string>
+    <string name="aboutFisherText">          Fisher Evans is currently enrolled at Vermont Technical College for Software Engineering. He has been intrigued by anything involving technology from a young age. He first started learning about computers and how they work at age 11 when he built his first computer.</string>
+    <string name="aboutFisherText2">          In college, Fisher is excelling in all of his classes. He goes above and beyond the requirements of his classes by applying the lessons learned to personal hobbies and professional development. During his free time, Fisher runs a popular java-based multiplayer game server called SudoCraft. This server allows him to be able to constantly apply what he has learned of programming by modifying the game to make it a more enjoyable playing environment, practice management skills concerning hundreds of clients, and keep in touch with new web development technologies with the server\'s ever-changing website.</string>
+    
+    <string name="game_view">This game is best played in LANDSCAPE mode...</string>
+    <string name="dummy">Dummy</string>
+</resources>

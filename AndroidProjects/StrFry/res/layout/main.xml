@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/wrapper"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <FrameLayout
+	            android:id="@+id/gameWrapper"
+		        android:background="@drawable/game_wrapper"
+	        	android:layout_gravity="center"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+	        </FrameLayout>
+	        
+		    <FrameLayout
+		        android:id="@+id/buttonWrapper"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center" >
+
+		        <Button
+		            android:id="@+id/googleButton"
+		            android:background="@drawable/button"
+		            android:textColor="#ffffff"
+		            android:layout_width="0dp"
+		            android:layout_height="0dp"
+		            android:text="@string/dummy" />
+
+		        <Button
+		            android:id="@+id/checkButton"
+		            android:background="@drawable/button"
+		            android:textColor="#ffffff"
+		            android:layout_width="0dp"
+		            android:layout_height="0dp"
+		            android:text="@string/dummy" />
+
+		        <Button
+		            android:id="@+id/solveButton"
+		            android:background="@drawable/button"
+		            android:textColor="#ffffff"
+		            android:layout_width="0dp"
+		            android:layout_height="0dp"
+		            android:text="@string/dummy" />
+
+		        <Button
+		            android:id="@+id/nextButton"
+		            android:background="@drawable/button"
+		            android:textColor="#ffffff"
+		            android:layout_width="0dp"
+		            android:layout_height="0dp"
+		            android:text="@string/dummy" />
+
+		        <Button
+		            android:id="@+id/timerButton"
+		            android:background="@drawable/button"
+		            android:textColor="#ffffff"
+		            android:layout_width="0dp"
+		            android:layout_height="0dp"
+		            android:text="@string/dummy" />
+			    
+	   		</FrameLayout>
+		    
+   		</LinearLayout>
+   		
+</LinearLayout>

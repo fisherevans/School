@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordToss</string>
+
+    <string name="googleButtonText">Google</string>
+    <string name="checkButtonText">Check</string>
+    <string name="solveButtonText">Solve It</string>
+    <string name="nextButtonText">Next</string>
+    <string name="skipButtonText">Skip</string>
+    
+    <string name="menuPref">Preferences</string>
+    <string name="menuHigh">High Scores</string>
+    
+    <string name="prefDiff">Chose a Difficulty</string>
+    <string name="prefEasy">Easy</string>
+    <string name="prefMedium">Medium</string>
+    <string name="prefHard">Hard</string>
+    <string name="prefTime">Show the Time Counter?</string>
+    <string name="prefGoogle">Show the Google Search Button?</string>
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="loading">Yup, Still loading...</string>
+    
+    <string name="dummy">Dummy</string>
+</resources>

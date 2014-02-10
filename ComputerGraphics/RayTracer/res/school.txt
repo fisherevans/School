@@ -1,0 +1,36 @@
+# CAMERA
+# pp_a:x:y:z = The top left point o: the Picture Pane. + or - floats.
+# pp_b:x:y:z = The bottom right point of the Picture Pane.
+# pix_wide:int = The X resolution of the render. Any INT above 0.
+# pix_high:int = The Y resolution of the render. Any INT above 0.
+# aa_depth:int = The depth of anti Aliasing. Any INT above 0.
+# display_scale = The scale of the pixels in the display
+
+
+# TRIANGLE
+# base = Base point of Triangle
+# ba and bc = The two vectors defining the triangle from the base
+# color = RBG values between 0 and 255 defining the color of the triangle
+# triangle:baseX:baseY:baseZ:baX:baY:baZ:bcX:bcY:bcZ:colorR:colorG:colorB
+
+# LIGHT
+# x, y, z = Point of Light
+# color = RBG values between 0 and 255 defining the color of the light
+# light:x:y:z:colorR:colorG:colorB
+
+# Camera Details
+pp_a:-2.5:2.5:-10
+pp_b:2.5:-2.5:-10
+pix_wide:20
+pix_high:20
+aa_depth:1
+display_scale:40
+ambient_light:0:0:0
+
+# Triangles
+triangle:-1.75:-0.5:-15:3.25:0:0:3.25:4.25:0:255:0:0:1000000
+triangle:5.1:0:-17:-8.1:0:0:-8.1:-4.25:0:0:255:0:1000000
+triangle:0:-2:-20:0:7:0:-5:0:0:0:0:255:1000000
+
+# Light
+light:0:0:0:255:255:255:10000000000

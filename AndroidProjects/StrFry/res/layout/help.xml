@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:gravity="center" >
+<LinearLayout
+	android:id="@+id/helpWrap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+	android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/helpBack1"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goBack"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+	
+       <TextView
+           android:id="@+id/helpPointTitle"
+           android:text="@string/helpPointTitle"
+           android:layout_width="match_parent"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/helpPointText"
+           android:text="@string/helpPointText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+       <TextView
+           android:id="@+id/helpTipsTitle"
+           android:text="@string/helpTipsTitle"
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/helpTipsText"
+           android:text="@string/helpTipsText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	
+       <TextView
+           android:id="@+id/helpWordTitle"
+           android:text="@string/helpWordTitle"
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/helpWordText"
+           android:text="@string/helpWordText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	
+       <TextView
+           android:id="@+id/helpPauseTitle"
+           android:text="@string/helpPauseTitle"
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/helpPauseText"
+           android:text="@string/helpPauseText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	
+       <TextView
+           android:id="@+id/helpButtonTitle"
+           android:text="@string/helpButtonTitle"
+           android:layout_width="match_parent"
+           android:layout_marginTop="10dp"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/helpButtonText"
+           android:text="@string/helpButtonText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+		<Button
+		    android:id="@+id/helpBack2"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goBack"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+       
+</LinearLayout>
+</ScrollView>

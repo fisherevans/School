@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:gravity="center" >
+<LinearLayout
+	android:id="@+id/prefWrap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+	android:orientation="vertical" >
+		
+		<Button
+		    android:id="@+id/prefBack1"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="closeActivity"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+		<Button
+		    android:id="@+id/prefSave1"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="savePrefs"
+		    android:padding="10dp"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginTop="20dp"
+		    android:text="@string/save" />
+		
+	       <TextView
+	           android:id="@+id/diffTextView"
+	           android:text="@string/prefDiff"
+	           android:layout_width="match_parent"
+			   android:background="@drawable/grad_back"
+		   		android:layout_marginBottom="20dp"
+	           android:layout_height="wrap_content"
+	           android:gravity="center"
+	           android:padding="10dp"
+	           android:textAppearance="?android:attr/textAppearanceLarge" />
+		        
+		    <LinearLayout
+		        android:id="@+id/diffWrapper"
+		        android:weightSum="3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		
+		        <TextView
+		            android:id="@+id/easyTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/prefEasy"
+		            android:gravity="left"
+		            android:layout_weight="1"
+		            android:padding="10dp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		        <TextView
+		            android:id="@+id/mediumTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/prefMedium"
+		            android:gravity="center"
+		            android:layout_weight="1"
+		            android:padding="10dp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		        <TextView
+		            android:id="@+id/hardTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/prefHard"
+		            android:gravity="right"
+		            android:padding="10dp"
+		            android:layout_weight="1"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		    </LinearLayout>
+		
+		    <SeekBar
+		        android:id="@+id/difficulty"
+		        android:max="100"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" />
+		
+		    <TextView
+		        android:id="@+id/timeTextView"
+		        android:text="@string/prefTime"
+	           android:layout_width="match_parent"
+			   android:background="@drawable/grad_back"
+		   		 android:layout_marginTop="20dp"
+		   		 android:layout_marginBottom="20dp"
+	           android:layout_height="wrap_content"
+	           android:gravity="center"
+	           android:padding="10dp"
+	           android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		    <ToggleButton
+		        android:id="@+id/prefTime"
+		        android:layout_width="230dp"
+		        android:layout_height="50dp"
+		        android:textOn="@string/yes"
+		        android:textOff="@string/no" />
+		
+		    <TextView
+		        android:id="@+id/googleTextView"
+		        android:text="@string/prefGoogle"
+	           android:layout_width="match_parent"
+			   android:background="@drawable/grad_back"
+		   		 android:layout_marginTop="20dp"
+		   		 android:layout_marginBottom="20dp"
+	           android:layout_height="wrap_content"
+	           android:gravity="center"
+	           android:padding="10dp"
+	           android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		    <ToggleButton
+		        android:id="@+id/prefGoogle"
+		        android:layout_width="230dp"
+		        android:layout_height="50dp"
+		        android:textOn="@string/yes"
+		        android:textOff="@string/no" />
+		
+		    <TextView
+		        android:id="@+id/soundTextView"
+		        android:text="@string/prefSound"
+	           android:layout_width="match_parent"
+			   android:background="@drawable/grad_back"
+		   		 android:layout_marginTop="20dp"
+		   		 android:layout_marginBottom="20dp"
+	           android:layout_height="wrap_content"
+	           android:gravity="center"
+	           android:padding="10dp"
+	           android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		    <ToggleButton
+		        android:id="@+id/prefSound"
+		        android:layout_width="230dp"
+		        android:layout_height="50dp"
+		        android:textOn="@string/yes"
+		        android:textOff="@string/no" />
+	
+		<Button
+		    android:id="@+id/prefSave"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="savePrefs"
+		    android:padding="10dp"
+		    android:layout_marginBottom="20dp"
+		   		 android:layout_marginTop="40dp"
+		    android:text="@string/save" />
+		<Button
+		    android:id="@+id/prefBack2"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="closeActivity"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+		   
+		
+	</LinearLayout>
+</ScrollView>

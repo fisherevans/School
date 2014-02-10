@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    <LinearLayout
+        android:id="@+id/wrapperHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/highBack1"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goBack"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+
+        <LinearLayout
+            android:id="@+id/highButtonLayout"
+        	android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+	        <Button
+	            android:id="@+id/eButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+			    android:background="@drawable/button"
+			    android:textColor="#ffffff"
+	            android:layout_weight="1"
+	            android:onClick="onClick"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/prefEasy" />
+	
+	        <Button
+	            android:id="@+id/emButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+			    android:background="@drawable/button"
+			    android:textColor="#ffffff"
+	            android:layout_weight="1"
+	            android:onClick="onClick"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/prefEasyMedium" />
+	
+	        <Button
+	            android:id="@+id/mButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+			    android:background="@drawable/button"
+			    android:textColor="#ffffff"
+	            android:layout_weight="1"
+	            android:onClick="onClick"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/prefMedium" />
+	
+	        <Button
+	            android:id="@+id/mhButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+			    android:background="@drawable/button"
+			    android:textColor="#ffffff"
+	            android:layout_weight="1"
+	            android:onClick="onClick"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/prefMediumHard" />
+	
+	        <Button
+	            android:id="@+id/hButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+			    android:background="@drawable/button"
+			    android:textColor="#ffffff"
+	            android:layout_weight="1"
+	            android:onClick="onClick"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:text="@string/prefHard" />
+        </LinearLayout>
+	  		
+	    <TableLayout
+	        android:id="@+id/scoreTable"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </TableLayout>
+    
+    </LinearLayout>
+
+</ScrollView>

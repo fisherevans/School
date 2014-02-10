@@ -1,0 +1,69 @@
+# PARSING NOTES
+# The parser will:
+# - Replace "," with ":"
+# - Remove " ", "(" and ")" characters
+
+# CAMERA
+# pp_a:x:y:z = The top left point o: the Picture Pane. + or - floats.
+# pp_b:x:y:z = The bottom right point of the Picture Pane.
+# pix_wide:int = The X resolution of the render. Any INT above 0.
+# pix_high:int = The Y resolution of the render. Any INT above 0.
+# aa_depth:int = The depth of anti Aliasing. Any INT above 0.
+# display_scale = The scale of the pixels in the display
+
+
+# TRIANGLE
+# base = Base point of Triangle
+# ba and bc = The two vectors defining the triangle from the base
+# color = RBG values between 0 and 255 defining the color of the triangle
+# triangle:baseX:baseY:baseZ:baX:baY:baZ:bcX:bcY:bcZ:colorR:colorG:colorB
+
+# LIGHT
+# x, y, z = Point of Light
+# color = RBG values between 0 and 255 defining the color of the light
+# light:x:y:z:colorR:colorG:colorB
+
+# Camera Details
+pp_a:-1:1:-4
+pp_b:1:-1:-4
+pix_wide:700
+pix_high:700
+aa_depth:3
+display_scale:1
+ambient_light: (60,60,100)
+
+# Floor
+triangle: (-5,5,-20) : (10,0,0)  : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,5,-20) : (0,0,-10) : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,5,-30) : (10,0,0)  : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,5,-30) : (0,0,-10) : (10,0,-10) : (150,150,150) : 125
+
+# Ceiling
+triangle: (-5,-5,-20) : (10,0,0)  : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,-5,-20) : (0,0,-10) : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,-5,-30) : (10,0,0)  : (10,0,-10) : (150,150,150) : 125
+triangle: (-5,-5,-30) : (0,0,-10) : (10,0,-10) : (150,150,150) : 125
+
+#Walls
+triangle: (-5,5,-20) : (0,0,-20) : (0,-5,-20) : (50,50,150) : 125
+triangle: (-5,5,-20) : (0,-5,0)  : (0,-5,-20) : (50,50,150) : 125
+triangle: (-5,0,-20) : (0,0,-20) : (0,-5,-20) : (50,50,150) : 125
+triangle: (-5,0,-20) : (0,-5,0)  : (0,-5,-20) : (50,50,150) : 125
+
+triangle: (-5,5,-40) : (10,0,0) : (10,-5,0) : (50,150,50) : 200
+triangle: (-5,5,-40) : (0,-5,0) : (10,-5,0) : (50,150,50) : 200
+triangle: (-5,0,-40) : (10,0,0) : (10,-5,0) : (50,150,50) : 200
+triangle: (-5,0,-40) : (0,-5,0) : (10,-5,0) : (50,150,50) : 200
+
+triangle: (5,5,-20) : (0,0,-20) : (0,-5,-20) : (150,50,50) : 125
+triangle: (5,5,-20) : (0,-5,0)  : (0,-5,-20) : (150,50,50) : 125
+triangle: (5,0,-20) : (0,0,-20) : (0,-5,-20) : (150,50,50) : 125
+triangle: (5,0,-20) : (0,-5,0)  : (0,-5,-20) : (150,50,50) : 125
+
+# Pyramid
+triangle: (3,-5,-28)  : (-3,0,7) : (-3,6,0) : (150,50,150) : 10000
+triangle: (-3,-5,-28) : (3,0,7)  : (3,6,0)  : (150,50,150) : 10000
+
+# Light
+light: (-3,-1,-23) : (210,210,50) : 20
+light: (1,-2,-23) : (160,160,160) : 20

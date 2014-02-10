@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:gravity="center" >
+<LinearLayout
+	android:id="@+id/aboutWrap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+	android:orientation="vertical" >
+		<Button
+		    android:id="@+id/aboutBack1"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goBack"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+	
+	
+       <TextView
+           android:id="@+id/aboutAppTitle"
+           android:text="@string/aboutAppTitle"
+           android:layout_width="match_parent"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/aboutAppText"
+           android:text="@string/aboutAppText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	
+       <TextView
+           android:id="@+id/aboutFisherTitle"
+           android:text="@string/aboutFisherTitle"
+           android:layout_width="match_parent"
+		   android:background="@drawable/grad_back"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/aboutFisherText"
+           android:text="@string/aboutFisherText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/aboutFisherText"
+           android:text="@string/aboutFisherText2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:padding="10dp"
+           android:textColor="#bbbbbb"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<Button
+		    android:id="@+id/aboutBack2"
+		    android:background="@drawable/button"
+		    android:textColor="#ffffff"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goBack"
+		    android:padding="10dp"
+		    android:text="@string/back" />
+       
+</LinearLayout>
+</ScrollView>

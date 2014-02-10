@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:gravity="center" >
+<LinearLayout
+	android:id="@+id/freeWrap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+	android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="80dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+		android:background="@drawable/grad_back"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/freetitle1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/freetext1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+		android:background="@drawable/grad_back"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/freetitle2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/freetext2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+		android:background="@drawable/grad_back"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/freetitle3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/freetext3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/freeLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StrFry (Paid)"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+		<Button
+		    android:id="@+id/freeCont"
+		    android:background="@drawable/button"
+		    android:textColor="#757575"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:onClick="goOn"
+		    android:padding="10dp"
+		    android:layout_margin="20dp"
+		    android:text="@string/cont" />
+
+</LinearLayout>
+</ScrollView>
