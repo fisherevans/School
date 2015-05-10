@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PithBalls - ReadMe</title>
+</head>
+<body>
+  <div style="width: 100%; max-width: 800px; margin: 0px auto;position: relative;">
+    <h1>PithBalls</h1>
+    <p>By: Fisher Evans (<a href="http://fisherevans.com/">website</a>)</p>
+    <p>Source: <a href="https://github.com/fisherevans/PithBalls">GitHub</a></p>
+    <p>This is a simple program that simulates charged "Pith Balls" in a 2-dimensional vacuum. The only forces acting on the balls are due to electrical charges (F = k*q1*q2/(d^2) or elastic collisions between each other.</p>
+    <h2>The Display</h2>
+    <p>There are three main portions of the screen: the simulation area, the ball information and the world statisitics. You can turn off the ball information and world statistics by pressing F2.</p>
+    <p><b>Simulation Area: </b> This is where the actual simulation occurs. This is the main portion of the screen and is "behind" to the other two displays. Each ball is colored, has an ID to the top left of it, and a charge sign to the top right. The more dense the ball, the darker the color. The more charged the ball is, the darker the charge sign is. The ID is only shown when the other two displays are. The balls also have a black line coming out of them. This shows the directiona nd magnitude of their current acceleration due to Coulombs's Law. Behind the balls there is a 1 meter grid.</p>
+    <p><b>Ball Information: </b> This is the left portion of the screen. It displays information for each ball (identified by its color and ID) in a box. You can scroll through this list using the page up and page down buttons.</p>
+    <p><b>World Statistics: </b> This is the right portion of the screen. It displays information about the current simulation and the configured parameters for the next simulation.</p>
+    <h2>Button Input</h2>
+    <p><b>Page Up/Down: </b> This will scroll through the ball information.</p>
+    <p><b>Arrow Keys: </b> This will scroll through the ball information.</p>
+    <p><b>F1: </b> This will pause the sim.</p>
+    <p><b>F2: </b> This will Hide the info panes/ball ids.</p>
+    <p><b>F3/F4: </b> This will speed up or slow down time.</p>
+    <p><b>F5/F6: </b> This will zoom in or out.</p>
+    <p><b>F7/F8: </b> This will scale the acceleration line.</p>
+    <p><b>F9: </b> This will follow the average postion of the balls.</p>
+    <p><b>F10: </b> This will reset the view port.</p>
+    <p><b>F12: </b> This will start a new simulation based on the input paramerters.</p>
+    <h2>Command Input</h2>
+    <p>You can enter commands simply by typing, and pressing Enter to execute them. Your input will show up in the grey bar on the bottom of the page. When you execute a command, you will also so red output telling you wheter it was successful or not. There are 2 main settings: ranges and single variables. For ranges you can either you can enter a range like "command 0.1 2.4", or treat it like a ssingle variable "command 8.99E-9".</p>
+    <p><b>mass (min max|both) </b> Takes floating points. This will set the range of masses when creating new balls in kg.</p>
+    <p><b>vel (min max|both) </b> Takes floating points. This will set the range of intial velocities when creating new balls in m/s/s.</p>
+    <p><b>charge (min max|both) </b> Takes floating points. This will set the range of charges when creating new balls in c. Please use positive values only. See the count command for negativity.</p>
+    <p><b>radius (min max|both) </b> Takes floating points. This will set the range of radii when creating new balls in m.</p>
+    <p><b>rest (min max|both) </b> Takes floating points. This will set the range of restitution to use when creating new balls.</p>
+    <p><b>count (neg pos|both) </b> Takes whole numbers. This define how many balls to create when creating a simulation. The neg value is number of negativly charged balls, while the pos is positive. Passing one number will set both the negative and positive counts to passed number.</p>
+    <p><b>timescale x </b> Takes a floating point. This will set the time scale.</p>
+    <p><b>viewscale x </b> Takes a whole number. This will set the view scale in pixels per meter.</p>
+    <p><b>area x </b> Takes a floating point. This will set the spawn area around 0, 0 in m.</p>
+    <p><b>k x </b> Takes a floating point. This will set the K constant in .</p>
+  </div>
+</body>
+</html>
